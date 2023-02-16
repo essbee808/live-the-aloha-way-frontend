@@ -1,18 +1,31 @@
 import React from 'react';
 import './home.css';
 import Bento from '../assets/home-bento.jpg';
-import Photos from '../components/Photos';
+import CarouselComponent from '../components/CarouselComponent';
 
 const Home = () => {
   return (
-    <section>
-        <div className="home-content">
-            <h1>Home Page</h1>
-            <img src={Bento} alt="Girl holding takeout food" className="photo-highlight"/>
-            <p className="home-message">Hi, my name is Ari!</p>
+        <div class="container">
+            <div class="row home">
+                <div className="col-sm-5">
+                    <img src={Bento} alt="Girl holding takeout food" className="img-fluid featured-photo"/>
+                </div>
+                <div className="col-sm-7">
+                    <h1>ALOHA!</h1>
+                    <h3>My name is Ari.</h3>
+                </div>
+            </div>
+
+            <div className="row home">
+                 <CarouselComponent />
+            </div>
+
+            <div class="row home">
+                <div class="col-sm">Something here</div>
+                <div class="col-sm">Another column</div>
+                <div class="col-sm">Cool!</div>
+            </div>
         </div>
-        <Photos />
-    </section>
   )
 }
 

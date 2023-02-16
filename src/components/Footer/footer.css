@@ -5,10 +5,12 @@ footer {
     left: 0;
     right: 0;
     background: #111;
-    height: auto;
-    width: 100vw;
+    /* height: auto;
+    width: 100vw; */
+    height: 300px;
+    width: 100%;
 
-    padding-top: 20px;
+    padding-top: 10px;
     color: #fff;
 }
 
@@ -115,11 +117,4 @@ footer {
     color: #27bcda;
 }
 
-/* @media (max-width:500px) {
-    .footer-menu ul {
-        display: flex;
-        margin-top: 10px;
-        margin-bottom: 20px;
-    }
-} */
 
