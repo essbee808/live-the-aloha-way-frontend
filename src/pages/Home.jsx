@@ -2,29 +2,29 @@ import React from 'react';
 import './home.css';
 import Bento from '../assets/home-bento.jpg';
 import CarouselComponent from '../components/CarouselComponent';
+import Testimonials from '../components/Testimonials';
 
 const Home = () => {
   return (
         <div class="container">
-            <div class="row home">
+            <div class="row home gradient-bg">
                 <div className="col-sm-5">
                     <img src={Bento} alt="Girl holding takeout food" className="img-fluid featured-photo"/>
                 </div>
-                <div className="col-sm-7">
+                <div className="col-sm-7 home-message">
                     <h1>ALOHA!</h1>
-                    <h3>My name is Ari.</h3>
+                    <h4>My name is Ari.</h4>
+                    <p></p>
                 </div>
             </div>
 
             <div className="row home">
                  <CarouselComponent />
             </div>
-
-            <div class="row home">
-                <div class="col-sm">Something here</div>
-                <div class="col-sm">Another column</div>
-                <div class="col-sm">Cool!</div>
+            <div className="row home">
+                <Testimonials />
             </div>
+            
         </div>
   )
 }
