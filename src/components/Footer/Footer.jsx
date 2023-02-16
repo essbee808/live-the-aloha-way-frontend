@@ -15,10 +15,10 @@ const Footer = () => {
             <p>copyright &copy; <a href="">Live The Aloha Way</a></p>
             <div className="footer-menu">
                 <ul className="f-menu">
-                    <li><a href="#home">Our Story</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
-                    <li><a href="#donate">Share Aloha</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/gallery">Gallery</a></li>
+                    <li><a href="/share-aloha">Share Aloha</a></li>
+                    <li><a href="/contact">Contact</a></li>
                 </ul>
             </div>
         </div>

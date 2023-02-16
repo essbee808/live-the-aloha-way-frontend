@@ -1,18 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 
 .home {
-    padding: 50px;
+    padding: 30px;
+    margin-bottom: 3%;
 }
 
 .featured-photo {
     border-radius: 50%;
     border-color: white;
+    width: 80%;
+    height: auto;
 }
 
 .gradient-bg {
     font-family: 'Gloria Hallelujah', cursive;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    animation: gradient 15s ease infinite;
+    /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+    /* background: linear-gradient(-45deg, #fc00ff, #00dbde); */
+    /* border: 1px solid black; */
+    /* border-radius: 25px;
+    animation: gradient 15s ease infinite; */
     width: 100%;
-    color: white;
+    color: black;
 }

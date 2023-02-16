@@ -19,4 +19,13 @@ code {
     monospace;
 }
 
+.nav-logo {
+  height: 70px;
+}
+
+.contact-container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
 
