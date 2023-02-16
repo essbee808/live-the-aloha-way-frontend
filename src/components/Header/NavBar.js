@@ -10,9 +10,9 @@ function NavBar() {
           <Navbar.Brand href="#home">Live The Aloha Way</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="#about">Our Story</Nav.Link>
-            <Nav.Link href="#pricing">Gallery</Nav.Link>
-            <Nav.Link href="#blog">Share Aloha</Nav.Link>
-            <Nav.Link href="#Contact">Contact Us</Nav.Link>
+            <Nav.Link href="#gallery">Gallery</Nav.Link>
+            <Nav.Link href="#donate">Share Aloha</Nav.Link>
+            <Nav.Link href="#contact">Contact Us</Nav.Link>
             
           </Nav>
         </Container>
