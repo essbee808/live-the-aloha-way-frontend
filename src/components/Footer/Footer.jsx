@@ -6,7 +6,7 @@ const Footer = () => {
     <footer>
         <div className="footer-content">
             <h3>Live The Aloha Way</h3>
-            <p>Live the aloha way mission statement here...</p>
+            <p>Bringing SMILES, sharing LOVE, and spreading ALOHA to children and families all over the world.</p>
             <ul className="socials">
                 <li><a href="https://www.facebook.com/livethealohaway/" target="_blank"><i className="fa fa-facebook"></i></a></li>
             </ul>
