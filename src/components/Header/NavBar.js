@@ -7,12 +7,12 @@ function NavBar() {
     <>
       <Navbar bg="light" variant="light">
         <Container>
-          <Navbar.Brand href="#home">Live The Aloha Way</Navbar.Brand>
+          <Navbar.Brand href="/">Live The Aloha Way</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#about">Our Story</Nav.Link>
-            <Nav.Link href="#gallery">Gallery</Nav.Link>
-            <Nav.Link href="#donate">Share Aloha</Nav.Link>
-            <Nav.Link href="#contact">Contact Us</Nav.Link>
+            <Nav.Link href="/about">Our Story</Nav.Link>
+            <Nav.Link href="/gallery">Gallery</Nav.Link>
+            <Nav.Link href="/donate">Share Aloha</Nav.Link>
+            <Nav.Link href="/contact">Contact Us</Nav.Link>
             
           </Nav>
         </Container>

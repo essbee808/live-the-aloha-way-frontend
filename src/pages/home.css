@@ -1,0 +1,14 @@
+section {
+    background: green;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+
+}
+
+.home-message {
+    background: green;
+}
