@@ -12,8 +12,6 @@ const Footer = () => {
             </ul>
         </div>
         <div className="footer-bottom">
-            <p>Copyright &copy;Live The Aloha Way. All Rights Reserved.</p>
-            <p>Web Development by <a href="https://www.sheenabonilla.com" target="_blank">www.sheenabonilla.com</a></p>
             <div className="footer-menu">
                 <ul className="f-menu">
                     <li><a href="/">Home</a></li>
@@ -22,6 +20,8 @@ const Footer = () => {
                     <li><a href="/contact">Contact Us</a></li>
                 </ul>
             </div>
+            <p>Copyright &copy; Live The Aloha Way. All Rights Reserved.</p>
+            <p>Web Development by <a href="https://www.sheenabonilla.com" target="_blank">www.sheenabonilla.com</a></p>
         </div>
     </footer>
     )

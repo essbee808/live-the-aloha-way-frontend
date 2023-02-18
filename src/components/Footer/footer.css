@@ -79,13 +79,13 @@ footer {
 .footer-bottom p {
     display: block;
     text-align: center;
+    color: rgb(169, 168, 168);
+    font-size: 12px;
 }
-
-
 
 .footer-bottom p a {
     color: #44bae8;
-    font-size: 16px;
+    font-size: 12px;
     text-decoration: none;
 }
 
@@ -100,7 +100,7 @@ footer {
 }
 
 .footer-menu ul {
-    display: flex;
+    display: block;
 }
 
 .footer-menu ul li {
