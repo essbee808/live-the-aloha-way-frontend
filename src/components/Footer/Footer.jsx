@@ -2,7 +2,7 @@ import React from 'react'
 import './footer.css';
 
 const Footer = () => {
-  return (
+    return (
     <footer>
         <div className="footer-content">
             <h3>Live The Aloha Way</h3>
@@ -12,7 +12,8 @@ const Footer = () => {
             </ul>
         </div>
         <div className="footer-bottom">
-            <p>copyright &copy; <a href="">Live The Aloha Way</a></p>
+            <p>Copyright &copy;Live The Aloha Way. All Rights Reserved.</p>
+            <p>Web Development by <a href="https://www.sheenabonilla.com" target="_blank">www.sheenabonilla.com</a></p>
             <div className="footer-menu">
                 <ul className="f-menu">
                     <li><a href="/">Home</a></li>
@@ -23,7 +24,7 @@ const Footer = () => {
             </div>
         </div>
     </footer>
-  )
+    )
 }
 
 export default Footer
