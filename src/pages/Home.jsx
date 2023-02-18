@@ -1,6 +1,6 @@
 import React from 'react';
 import './home.css';
-import Bento from '../assets/home-bento.jpg';
+import Bento from '../assets/highlight-yellow.png';
 import CarouselComponent from '../components/CarouselComponent';
 import Testimonials from '../components/Testimonials';
 
